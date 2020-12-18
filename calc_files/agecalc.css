@@ -1,0 +1,231 @@
+body{
+	
+	/* background-color: #F8E4CC; */
+	/* width:350px; */
+}
+
+#age{
+	margin-bottom:20px;
+}
+#bday{
+	color: #3e7193;
+}
+#output{
+	margin-top:10px;
+	text-align: center;
+	color:#294052;
+	font-weight:bold;
+	font-size: 60px;
+}
+
+#input1{
+	width:100%;
+	text-align: center;
+	font-size:2.5em;
+	margin-bottom:0px;
+	margin-top:10px;
+}
+#input2{
+	width:100%;
+	text-align: center;
+	font-size:2.5em;
+	margin-bottom:0px;
+}
+
+#bdate{
+	/* width:180px; */
+}
+
+#calculate{
+	background-color:lightblue;
+	font-weight:bold;
+}
+
+.inputbox {
+	border-radius:3px;
+	border:1px solid grey;
+	text-align: center;
+
+}
+
+#buttons1{
+	text-align:center;
+	border-radius:5px;
+	margin-bottom:5px;
+
+}
+
+#clock table{
+	float:left;
+	margin-bottom:1px;
+	
+	
+
+}
+#lifeblocks{
+	display: inline-block;
+	text-align: center;
+	font: 2em sans-serif;
+	font-family:sans-serif;
+	float: center;
+	margin-left:10%;
+	margin-right:10%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	
+}
+
+#blocks{
+	/* display:none; */
+	margin-bottom:20px;
+	padding-left: 100px;
+	float:left;
+	position:relative;
+	opacity: 30%;
+
+}
+.clocknum td{
+	width:90px;
+	height:35px;
+	line-height:30px;
+	padding:0px;
+	margin:0px;
+
+	font-size:200%;	
+	vertical-align: bottom;
+	font-family: monospace;
+	
+}
+
+.bdnum td{
+	width:90px;
+	height:35px;
+	line-height:30px;
+	padding:0px;
+	margin:0px;
+
+	font-size:200%;	
+	vertical-align: bottom;
+	font-family: monospace;
+	
+}
+
+.units, .bdunits{
+	font-size:100%;
+	line-height:20px;
+	padding:0px;
+	margin:0px;
+	height:25px;
+	margin-bottom:10px;
+	vertical-align:top;
+	font-family: monospace;
+	
+}
+
+label{
+	margin-right:10px;
+}
+
+
+
+.verticaltext {
+    transform: rotate(-90deg);
+    transform-origin: right, top;
+    -ms-transform: rotate(-90deg);
+    -ms-transform-origin:right, top;
+    -webkit-transform: rotate(-90deg);
+    -webkit-transform-origin:right, top;
+    position: absolute;
+    top: 300px;
+    left: -175px;
+    color:#294052;
+	font-weight:bold;
+	font-size:30px;
+}
+
+#toplabel{
+	font-size:30px;
+	width:100%;
+	margin-left:10%;
+	color:#294052;
+	font-weight:bold;
+}
+.labels{
+	float:left;
+	font-size:130%;
+	width:30px;
+	padding-left:0px;
+	padding-right:10px;
+	text-align:right;
+	
+}
+
+#timeinput{
+	display:none;
+}
+.decade table{
+	border-collapse: collapse;
+}	
+
+.decade td {
+	width:1.1em;
+	height:1.1em;
+	border: 1px solid black;
+}
+
+#output{
+	display:none;
+}
+
+#errormsg{
+	color:red;
+	text-align:center;
+}
+#birthday{
+	color:red;
+	font-size:120%;
+}
+
+.decade{
+	margin-bottom:0.3em;
+}	
+
+/*#y0, #y1 td {
+	background-color:red;
+}*/
+
+.past {
+	background-color:#8FBCDB;
+}
+
+.timeinput{
+	margin:3px;
+}
+#toggleclock{
+	color:green;
+	font-weight:bold;
+	display:none;
+	font-size:80%;
+	width:80px;
+}
+
+#urlbutton{
+	color:green;
+	font-weight:bold;
+	display:none;
+	font-size:80%;
+	width:60px;
+	display:none;
+}
+
+#navs{
+	display:none;
+	text-align:center;
+	font-size:80%;
+	background-color:#F8E4CC;
+	margin-top:10px;
+}
+
+.active{
+	background-color:#8FBCDB;
+}
